@@ -14,7 +14,7 @@ bot.on("ready", function() {
 bot.login(process.env.TOKEN)
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "logs-bvn").send(`${member} vient de rejoindre le Discord, bienvenue !!`)
+    member.guild.channels.find("name", "🆕-bienvenue").send(`${member} vient de rejoindre le Discord, bienvenue !!`)
 })
 
 bot.on("message", message => {
