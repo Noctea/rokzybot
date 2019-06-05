@@ -14,7 +14,7 @@ bot.on("ready", function() {
 bot.login(process.env.TOKEN)
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "🆕-bienvenue").send(`${member}, bienvenue sur le Discord destiné à la communauté de RokZy !`)
+    member.guild.channels.find("name", "🆕-bienvenue").send(`${member}, bienvenue sur le Discord destiné à la communauté de RokZy ! Passe un bon moment ici ! :purple_heart: `)
 })
 
 bot.on("message", message => {
