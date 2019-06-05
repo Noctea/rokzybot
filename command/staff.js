@@ -18,7 +18,7 @@ module.exports = class Staff extends Command {
         var staff = new Discord.RichEmbed()
             .setTitle("Demande de STAFF :")
             .setDescription("Un membre du <@&530730102762373123> te contactera dès que possible.")
-            .setThumbnail("https://www.nativitychurch.org/wp-content/uploads/2018/02/staff-box-1280x450.jpg")
+            .setThumbnail("https://www.fbcm.org/templates/yootheme/cache/staff-261c5a35.png")
             .setColor("0xBF00FF")
             .setFooter(`Demande de ${message.author.username}`)
 
