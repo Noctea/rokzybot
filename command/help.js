@@ -15,7 +15,7 @@ module.exports = class Help extends Command {
 
         var help = new Discord.RichEmbed()
             .setTitle("Aide :")
-            .setDescription("Commandes Disponible avec <@517662031026061314>")
+            .setDescription("Commandes Disponible avec <@585604187941765146>")
             .addField(".help", "Affiche cette page")
             .addField(".staff", "Mentionne le Staff (ne pas spam sous peine de bannissement)")
             .addField(".infos", "Affiche les informations du serveur Discord")
