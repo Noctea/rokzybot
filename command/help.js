@@ -19,7 +19,7 @@ module.exports = class Help extends Command {
             .addField(".help", "Affiche cette page")
             .addField(".staff", "Mentionne le Staff (ne pas spam sous peine de bannissement)")
             .addField(".infos", "Affiche les informations du serveur Discord")
-            .setThumbnail("http://portaildoc-veto.vetagro-sup.fr/wp-content/uploads/2018/05/brain.png")
+            .setThumbnail("http://adavip-53.org/wp-content/uploads/2017/05/Besoin-aide-250.png")
             .setColor("0xFF9933")
             .setFooter("Le BOT est encore en développement ; d'autres commandes seront bientôt disponible.")
 
