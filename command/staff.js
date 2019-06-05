@@ -13,7 +13,7 @@ module.exports = class Staff extends Command {
 
     static action(message) {
 
-        message.channel.send("<@&530730102762373123>")
+        message.channel.send("<@&585627955162513435>")
 
         var staff = new Discord.RichEmbed()
             .setTitle("Demande de STAFF :")
