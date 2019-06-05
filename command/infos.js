@@ -19,7 +19,7 @@ module.exports = class Infos extends Command {
             .addField("Crée le", "Mardi 10 Juillet 2018 à 15h38 (Heure de Paris)")
             .addField("Tu as rejoint le", message.member.joinedAt)
             .addField("Nombres de membres sur le Discord", message.guild.memberCount)
-            .setThumbnail("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Info_icon_002.svg/768px-Info_icon_002.svg.png")
+            .setThumbnail("https://cdn.pixabay.com/photo/2016/06/26/23/32/information-1481584_960_720.png")
             .setColor("0x3333FF")
 
         message.channel.sendEmbed(infos)
