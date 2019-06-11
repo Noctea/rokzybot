@@ -18,7 +18,7 @@ module.exports = class Caneton extends Command {
             .setDescription("Toutes nos condoléances pour le caneton de <@490943350996729887> :cry:")
             .addField("Pray For The Caneton", ":cry: :cry:")
             .setThumbnail("http://tubesetfonds.t.u.pic.centerblog.net/animal-caneton3.png")
-            .setColor("0x000000")
+            .setColor("0x#FFFF00")
             .setFooter("On pense fort à toi petit caneton... ❤️")
 
         message.channel.sendEmbed(caneton)
