@@ -21,7 +21,7 @@ module.exports = class Canard extends Command {
             .setColor("0x000000")
             .setFooter("On pense fort à toi petit caneton...")
 
-        message.channel.sendEmbed(help)
+        message.channel.sendEmbed(canard)
         .then(function(message) {
             message.react(":cry:")
         })
