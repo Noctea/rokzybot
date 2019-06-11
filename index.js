@@ -6,7 +6,7 @@ const Ping = require("./command/ping")
 const Infos = require("./command/infos")
 const Help = require("./command/help")
 const Staff = require("./command/staff")
-const Canard = require("./command/canard")
+const Caneton = require("./command/canard")
 
 bot.on("ready", function() {
     bot.user.setActivity("RokzyBot | .help")
@@ -24,5 +24,5 @@ bot.on("message", message => {
     Infos.parse(message)
     Help.parse(message)
     Staff.parse(message)
-    Canard.parse(message)
+    Caneton.parse(message)
 })
