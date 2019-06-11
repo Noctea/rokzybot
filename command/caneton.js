@@ -16,7 +16,7 @@ module.exports = class Caneton extends Command {
         var caneton = new Discord.RichEmbed()
             .setTitle("RIP le petit caneton")
             .setDescription("Toutes nos condoléances pour le caneton de <@490943350996729887> :cry:")
-            .addField("Pray For The Caneton", ":cry: :cry:")
+            .addField("Pray For The Caneton", "Décédé le 11/06/2019")
             .setThumbnail("http://tubesetfonds.t.u.pic.centerblog.net/animal-caneton3.png")
             .setColor("0x#FFFF00")
             .setFooter("On pense fort à toi petit caneton... ❤️")
