@@ -7,6 +7,7 @@ const Infos = require("./command/infos")
 const Help = require("./command/help")
 const Staff = require("./command/staff")
 const Caneton = require("./command/caneton")
+const Nvpp = require("./command/nvpp")
 
 bot.on("ready", function() {
     bot.user.setActivity("RokzyBot | .help")
@@ -25,4 +26,5 @@ bot.on("message", message => {
     Help.parse(message)
     Staff.parse(message)
     Caneton.parse(message)
+    Nvpp.parse(message)
 })
