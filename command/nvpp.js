@@ -14,7 +14,7 @@ module.exports = class Nvpp extends Command {
     static action(message) {
 
         var nvpp = new Discord.RichEmbed()
-            .setTitle("LA NOUVELLE PP DU <@585604187941765146> !")
+            .setTitle("LA NOUVELLE PP DU ROKZYBOT !")
             .setDescription("<@490943350996729887> dans toute sa splendeur !")
             .setThumbnail("https://cdn.discordapp.com/attachments/286230717367713792/612355077356912651/rokzychasse2.jpg")
             .setColor("0xFF7B00")
